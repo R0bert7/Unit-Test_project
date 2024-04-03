@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite name="Test_Cookies.TestCookiesButton-20240331185052" tests="1" file="Test_Cookies.py" time="7.306" timestamp="2024-03-31T18:50:59" failures="0" errors="0" skipped="0">
+		<testcase classname="Test_Cookies.TestCookiesButton" name="test_cookies_button_exists" time="7.306" timestamp="2024-03-31T18:50:59" file="Test_Cookies.py" line="13"/>
+	</testsuite>
+	<testsuite name="Test_Notifications.TestNotificationAlerts-20240331185052" tests="1" file="Test_Notifications.py" time="27.227" timestamp="2024-03-31T18:51:30" failures="0" errors="1" skipped="0">
+		<testcase classname="Test_Notifications.TestNotificationAlerts" name="test_notification_deny" time="27.227" timestamp="2024-03-31T18:51:30" file="Test_Notifications.py" line="17">
+			<error type="TimeoutException" message="Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71F05AD02+56930]
+	(No symbol) [0x00007FF71EFCF602]
+	(No symbol) [0x00007FF71EE842E5]
+	(No symbol) [0x00007FF71EEC98ED]
+	(No symbol) [0x00007FF71EEC9A2C]
+	(No symbol) [0x00007FF71EF0A967]
+	(No symbol) [0x00007FF71EEEBCDF]
+	(No symbol) [0x00007FF71EF081E2]
+	(No symbol) [0x00007FF71EEEBA43]
+	(No symbol) [0x00007FF71EEBD438]
+	(No symbol) [0x00007FF71EEBE4D1]
+	GetHandleVerifier [0x00007FF71F3D6F8D+3711213]
+	GetHandleVerifier [0x00007FF71F4304CD+4077101]
+	GetHandleVerifier [0x00007FF71F42865F+4044735]
+	GetHandleVerifier [0x00007FF71F0F9736+706710]
+	(No symbol) [0x00007FF71EFDB8DF]
+	(No symbol) [0x00007FF71EFD6AC4]
+	(No symbol) [0x00007FF71EFD6C1C]
+	(No symbol) [0x00007FF71EFC68D4]
+	BaseThreadInitThunk [0x00007FFB7021257D+29]
+	RtlUserThreadStart [0x00007FFB723AAA58+40]
+"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\rober\PycharmProjects\Test_Sample\Test\Test_Notifications.py", line 20, in test_notification_deny
+    notification_banner = WebDriverWait(self.driver, 20).until(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\PycharmProjects\pythonProject\Test_Sample\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71F05AD02+56930]
+	(No symbol) [0x00007FF71EFCF602]
+	(No symbol) [0x00007FF71EE842E5]
+	(No symbol) [0x00007FF71EEC98ED]
+	(No symbol) [0x00007FF71EEC9A2C]
+	(No symbol) [0x00007FF71EF0A967]
+	(No symbol) [0x00007FF71EEEBCDF]
+	(No symbol) [0x00007FF71EF081E2]
+	(No symbol) [0x00007FF71EEEBA43]
+	(No symbol) [0x00007FF71EEBD438]
+	(No symbol) [0x00007FF71EEBE4D1]
+	GetHandleVerifier [0x00007FF71F3D6F8D+3711213]
+	GetHandleVerifier [0x00007FF71F4304CD+4077101]
+	GetHandleVerifier [0x00007FF71F42865F+4044735]
+	GetHandleVerifier [0x00007FF71F0F9736+706710]
+	(No symbol) [0x00007FF71EFDB8DF]
+	(No symbol) [0x00007FF71EFD6AC4]
+	(No symbol) [0x00007FF71EFD6C1C]
+	(No symbol) [0x00007FF71EFC68D4]
+	BaseThreadInitThunk [0x00007FFB7021257D+29]
+	RtlUserThreadStart [0x00007FFB723AAA58+40]
+
+]]></error>
+		</testcase>
+	</testsuite>
+	<testsuite name="Test_Cargus_Website.TestCargusWebsite-20240331185052" tests="1" file="Test_Cargus_Website.py" time="18.482" timestamp="2024-03-31T18:51:49" failures="0" errors="1" skipped="0">
+		<testcase classname="Test_Cargus_Website.TestCargusWebsite" name="test_accept_cookies_and_click_preturi_button" time="18.482" timestamp="2024-03-31T18:51:49" file="Test_Cargus_Website.py" line="17">
+			<error type="TimeoutException" message="Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71F05AD02+56930]
+	(No symbol) [0x00007FF71EFCF602]
+	(No symbol) [0x00007FF71EE842E5]
+	(No symbol) [0x00007FF71EEC98ED]
+	(No symbol) [0x00007FF71EEC9A2C]
+	(No symbol) [0x00007FF71EF0A967]
+	(No symbol) [0x00007FF71EEEBCDF]
+	(No symbol) [0x00007FF71EF081E2]
+	(No symbol) [0x00007FF71EEEBA43]
+	(No symbol) [0x00007FF71EEBD438]
+	(No symbol) [0x00007FF71EEBE4D1]
+	GetHandleVerifier [0x00007FF71F3D6F8D+3711213]
+	GetHandleVerifier [0x00007FF71F4304CD+4077101]
+	GetHandleVerifier [0x00007FF71F42865F+4044735]
+	GetHandleVerifier [0x00007FF71F0F9736+706710]
+	(No symbol) [0x00007FF71EFDB8DF]
+	(No symbol) [0x00007FF71EFD6AC4]
+	(No symbol) [0x00007FF71EFD6C1C]
+	(No symbol) [0x00007FF71EFC68D4]
+	BaseThreadInitThunk [0x00007FFB7021257D+29]
+	RtlUserThreadStart [0x00007FFB723AAA58+40]
+"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\rober\PycharmProjects\Test_Sample\Test\Test_Cargus_Website.py", line 27, in test_accept_cookies_and_click_preturi_button
+    preturi_button = WebDriverWait(self.driver, 10).until(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\PycharmProjects\pythonProject\Test_Sample\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71F05AD02+56930]
+	(No symbol) [0x00007FF71EFCF602]
+	(No symbol) [0x00007FF71EE842E5]
+	(No symbol) [0x00007FF71EEC98ED]
+	(No symbol) [0x00007FF71EEC9A2C]
+	(No symbol) [0x00007FF71EF0A967]
+	(No symbol) [0x00007FF71EEEBCDF]
+	(No symbol) [0x00007FF71EF081E2]
+	(No symbol) [0x00007FF71EEEBA43]
+	(No symbol) [0x00007FF71EEBD438]
+	(No symbol) [0x00007FF71EEBE4D1]
+	GetHandleVerifier [0x00007FF71F3D6F8D+3711213]
+	GetHandleVerifier [0x00007FF71F4304CD+4077101]
+	GetHandleVerifier [0x00007FF71F42865F+4044735]
+	GetHandleVerifier [0x00007FF71F0F9736+706710]
+	(No symbol) [0x00007FF71EFDB8DF]
+	(No symbol) [0x00007FF71EFD6AC4]
+	(No symbol) [0x00007FF71EFD6C1C]
+	(No symbol) [0x00007FF71EFC68D4]
+	BaseThreadInitThunk [0x00007FFB7021257D+29]
+	RtlUserThreadStart [0x00007FFB723AAA58+40]
+
+]]></error>
+		</testcase>
+	</testsuite>
+</testsuites>
